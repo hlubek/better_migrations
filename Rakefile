@@ -27,11 +27,11 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "rails-better-migrations"
+    gemspec.name = "better_migrations"
     gemspec.summary = "Better migrations for rails"
     gemspec.description = "Better migration rake tasks for undo / doing specific migrations"
     gemspec.email = "hlubek@resoap.com"
-    gemspec.homepage = "http://github.com/chlu/rails-better-migrations"
+    gemspec.homepage = "http://github.com/chlu/better_migrations"
     gemspec.authors = ["Christopher Hlubek"]
   end
 rescue LoadError

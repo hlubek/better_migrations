@@ -1,9 +1,16 @@
-h1. BetterMigrations
+h1. Better migrations
 
 h2. Installation
 
 <code>
-sudo gem install rails-better-migrations
+sudo gem install better_migrations
+</code>
+
+Create a rake task in @lib/tasks/better_migrations.rake@ (there will be a generator for that):
+
+<code>
+require 'rubygems'
+require 'better_migrations/tasks'
 </code>
 
 h2. Undoing migrations
