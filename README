@@ -16,4 +16,4 @@ Run @rake db:migrate:do@ and select a migration to apply.
 
 -------------------------------------------
 
-Copyright (c) 2009 Christopher Hlubek, released under the MIT license
+Copyright (c) 2009 Christopher Hlubek - resoap software applications, released under the MIT license
