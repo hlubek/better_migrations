@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{better_migrations}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christopher Hlubek"]
@@ -13,14 +13,15 @@ Gem::Specification.new do |s|
   s.description = %q{Better migration rake tasks for undo / doing specific migrations}
   s.email = %q{hlubek@resoap.com}
   s.extra_rdoc_files = [
-    "README"
+    "README.textile"
   ]
   s.files = [
     ".gitignore",
      "MIT-LICENSE",
-     "README",
+     "README.textile",
      "Rakefile",
      "VERSION",
+     "better_migrations.gemspec",
      "install.rb",
      "lib/better_migrations.rb",
      "lib/better_migrations/tasks.rb",
