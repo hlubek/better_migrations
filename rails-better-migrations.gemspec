@@ -16,12 +16,17 @@ Gem::Specification.new do |s|
     "README"
   ]
   s.files = [
-    "MIT-LICENSE",
+    ".gitignore",
+     "MIT-LICENSE",
      "README",
      "Rakefile",
      "VERSION",
      "install.rb",
      "lib/better_migrations.rb",
+     "lib/better_migrations/tasks.rb",
+     "rails-better-migrations.gemspec",
+     "rails/init.rb",
+     "tasks/better_migrations.rake",
      "test/better_migrations_test.rb",
      "test/test_helper.rb",
      "uninstall.rb"
