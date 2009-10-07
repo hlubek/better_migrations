@@ -34,6 +34,7 @@ begin
     gemspec.homepage = "http://github.com/chlu/better_migrations"
     gemspec.authors = ["Christopher Hlubek"]
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   # puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
 end

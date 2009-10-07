@@ -12,7 +12,7 @@ module BetterMigrations
   class Utils
     def self.list_migrations(migrations)
       migrations.each_with_index do |migration, index|
-        puts "[\033[0;1m\t#{index + 1}\033[0m] #{migration.name} \033[36m#{migration.version}\033[0m"
+        puts "[\033[0;1m#{index + 1}\033[0m] #{migration.name} \033[36m#{migration.version}\033[0m"
       end
     end
   end
