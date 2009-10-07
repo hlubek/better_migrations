@@ -1,0 +1,10 @@
+BetterMigrations
+================
+
+Example
+=======
+
+Run rake db:migrate:undo and select a migration to undo.
+
+
+Copyright (c) 2009 Christopher Hlubek, released under the MIT license
